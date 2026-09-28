@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/Seasonality_Tracker.png" alt="Seasonality Tracker" width="100%">
+</p>
+
 <h1 align="center">Seasonality Tracker</h1>
 
 <p align="center">
