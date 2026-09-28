@@ -1,0 +1,8 @@
+# This repo carries the README, the guides and the terms only.
+# Release builds live on the Releases page, never in the git tree.
+*.zip
+*.app
+*.exe
+*.dmg
+*.tvsetup
+*.json
