@@ -88,7 +88,8 @@ That is expected for an in-house tool; you clear the warning **once**.
    ```
 
 3. Open it from Applications, then double-click the **setup file** (`.tvsetup`)
-   the office sent you.
+   the office sent you. It carries the location list; the office can also send
+   the list itself as a CSV ([format](GUIDE.md#the-location-list)).
 
 Full walkthrough, with what each prompt means: **[INSTALL-MAC.md](INSTALL-MAC.md)**.
 

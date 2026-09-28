@@ -74,8 +74,8 @@ The master (`Seasonality_Master.xlsx` on the office drive, **Master ▾ → Open
 master**) is rebuilt on every Combine. Never type into it — correct tags in the
 library's own log.
 
-- **Coverage** — which EXT locations still need a visit, most urgent first. New shoot
-  dates: **Import locations…** with the pipeline's location export.
+- **Coverage** — which EXT locations still need a visit, most urgent first. New places
+  or shoot dates: **Import locations…** with the location list (CSV — see below).
 - **Package…** — name the vendor, pick what they get, **Build package**. The folder
   (in `_packages` on the office drive) is ready for Aspera; files they already have
   are left out.
@@ -87,6 +87,30 @@ library's own log.
 
 The office sends a fresh setup or reference file now and then (new locations, trees
 others have started). **Settings → Load file…** takes it.
+
+## The location list
+
+The places to shoot come from a **location list** — a spreadsheet saved as **CSV**
+(in Excel: *File → Save As → CSV UTF-8*). Nothing about a location is built into the
+app; loading the list is what starts the data.
+
+| Column | Example | |
+|---|---|---|
+| **Real Address** (filmed at) | `Market Square` | the place — each different one becomes a location |
+| **Script Location** | `HARBOUR - NIGHT` | the script's name for it — several can share a place |
+| **Shoot Dates** | `2026-09-09` | one or more, YYYY-MM-DD |
+| **Episode / Scene** | `101-4` | |
+| **Slates** | `104, 104A` | what reference can later be matched to |
+| INT/EXT | `EXT` | optional — without it every row counts as exterior |
+
+Columns are found by name, in any order; others (such as a slate count) are ignored.
+One row per place per scene per day is fine — rows for the same place are merged.
+Loading an updated list adds new places and refreshes dates and scenes; coordinates
+and notes someone typed are kept.
+
+- **The office:** Combine → **Coverage → Import locations…**, then **Team ▾ → Export
+  reference file…** to send it to everyone.
+- **In the field** (if sent the list directly): **Settings → Load file…**
 
 ## If something goes wrong
 
