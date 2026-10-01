@@ -24,13 +24,18 @@ No internet is needed, ever. Everything is saved in your library folder.
    just those. **Select next burst (B)** picks the next run of shots taken without a
    pause — usually one tree — so you can tag it in one go; press B again for the next.
    A **●** marks a shot with its own tags. **Esc** goes back to the whole card.
-4. **Same tree over time?** Pick it in **Tree**, or **+ New tree** the first time you
+4. **Blurry or useless shot?** Select it and press **X** (or **Leave out**). It
+   disappears and is not copied or logged; nothing on your card is changed. The app
+   remembers, so it stays out if you choose the card again. Changed your mind? Tick
+   **Show left-out**, select the greyed shot and press **X** again.
+5. **Same tree over time?** Pick it in **Tree**, or **+ New tree** the first time you
    shoot it. New trees get your initials, e.g. `AB-T004`, so nobody else's numbers
    can clash with yours. That is how we follow one tree through the season.
-5. **Camera clock wrong?** Take a photo of your phone's clock. Select that photo,
+6. **Camera clock wrong?** Take a photo of your phone's clock. Select that photo,
    click **Camera clock**, type the time the phone showed.
-6. **Preview…** — shows every new name and anything missing. Fix what it lists.
-7. **Ingest** — copies and checks every file. Your originals are never changed.
+7. **Preview…** — shows every new name, anything missing and the shots you left out.
+   Fix what it lists.
+8. **Ingest** — copies and checks every file. Your originals are never changed.
 
 In the tag panel, locations on the shoot schedule on the day your card was shot are
 listed first with ★, and ones still needing a visit are marked — hints, not choices.
